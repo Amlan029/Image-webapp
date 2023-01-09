@@ -1,0 +1,63 @@
+*{
+    font-family: 'Ubuntu',sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url("https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.take{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* USING CSS GRID TO MAKE THE WEBPAGE RESPONSIVE */
+    float:  right left;
+}
+.get{
+    
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:  right left;
+}
+#canvas{
+    border: 10px solid rgb(247, 237, 193);
+    border-radius: 10px;
+}
+#video{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(247, 237, 193);
+    border-radius: 10px;
+
+}
+button{
+    font-size: 15px;
+    margin-left: 47%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+button:hover{
+    color: aqua;
+    background-color: black;
+    padding: 18px;
+}
+

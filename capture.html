@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Webcam Stream</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Click Capture to take your photo</h1><br>
+    <div class="take">
+    <video id="video" width="640" height="480" autoplay></video>
+    <br>
+</div><br>
+<button id="snap">Take Photo</button><br>
+<div class="get">
+    <canvas id="canvas" width="640" height="480"></canvas>
+</div><br>
+<button onclick="downloadCanvas()">Save Photo</button>
+</div>
+<script src="script.js">
+</script>
+</body>
+</html>
